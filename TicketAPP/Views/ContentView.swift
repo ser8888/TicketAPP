@@ -17,7 +17,7 @@ struct ContentView: View {
         
         NavigationView {
             if username == "" {
-                Text("Not logged in yet")
+              LoginView(username: $username)
             } else {
                 Text("Logged in")
             }

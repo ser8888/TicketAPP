@@ -12,12 +12,23 @@ struct LoginView: View {
     @Binding var username: String
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ProgressView()
+            .task {
+                await login()
+            }
     }
-}
 
-struct LoginView_Previews: PreviewProvider {
-    static var previews: some View {
-        LoginView()
+private func login() async {
+    do {
+        let user = try await realmApp.login(credentials: .anonymous)
+        username = user.id
+    } catch {
+        print("Failed to login to Realm: \(error.localizedDescription)")
     }
 }
+        }
+//struct LoginView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        LoginView(username: @username )
+//    }
+//}
