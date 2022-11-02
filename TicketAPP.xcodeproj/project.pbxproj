@@ -14,6 +14,9 @@
 		7F1DF92629130D800000DD43 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1DF92529130D800000DD43 /* Realm */; };
 		7F1DF92829130D800000DD43 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7F1DF92729130D800000DD43 /* RealmSwift */; };
 		7F1DF92B291313440000DD43 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF92A291313440000DD43 /* LoginView.swift */; };
+		7F1DF92D29131F6B0000DD43 /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF92C29131F6B0000DD43 /* ProductsView.swift */; };
+		7F1DF930291324750000DD43 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF92F291324750000DD43 /* Ticket.swift */; };
+		7F1DF932291328680000DD43 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF931291328680000DD43 /* TicketView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		7F1DF91A29130CD20000DD43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F1DF91D29130CD20000DD43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F1DF92A291313440000DD43 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7F1DF92C29131F6B0000DD43 /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		7F1DF92F291324750000DD43 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
+		7F1DF931291328680000DD43 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 				7F1DF91629130CD00000DD43 /* TicketAPPApp.swift */,
 				7F1DF929291313070000DD43 /* Views */,
 				7F1DF91A29130CD20000DD43 /* Assets.xcassets */,
+				7F1DF92E291324340000DD43 /* Models */,
 				7F1DF91C29130CD20000DD43 /* Preview Content */,
 			);
 			path = TicketAPP;
@@ -78,8 +85,18 @@
 			children = (
 				7F1DF91829130CD00000DD43 /* ContentView.swift */,
 				7F1DF92A291313440000DD43 /* LoginView.swift */,
+				7F1DF92C29131F6B0000DD43 /* ProductsView.swift */,
+				7F1DF931291328680000DD43 /* TicketView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		7F1DF92E291324340000DD43 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DF92F291324750000DD43 /* Ticket.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,7 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1DF932291328680000DD43 /* TicketView.swift in Sources */,
+				7F1DF92D29131F6B0000DD43 /* ProductsView.swift in Sources */,
 				7F1DF92B291313440000DD43 /* LoginView.swift in Sources */,
+				7F1DF930291324750000DD43 /* Ticket.swift in Sources */,
 				7F1DF91929130CD00000DD43 /* ContentView.swift in Sources */,
 				7F1DF91729130CD00000DD43 /* TicketAPPApp.swift in Sources */,
 			);
