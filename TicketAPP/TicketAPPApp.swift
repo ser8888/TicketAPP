@@ -6,9 +6,14 @@
 //
 
 import SwiftUI
+import RealmSwift
+
+//connect with Realm container
+
+let realmApp = RealmSwift.App(id: "appfromvideo-lkgda")
 
 @main
-struct TicketAPPApp: App {
+struct TicketAPPApp: SwiftUI.App {
     var body: some Scene {
         WindowGroup {
             ContentView()

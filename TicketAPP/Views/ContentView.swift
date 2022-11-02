@@ -6,16 +6,22 @@
 //
 
 import SwiftUI
+import RealmSwift
+
+
 
 struct ContentView: View {
+    @State private var username = ""
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        
+        NavigationView {
+            if username == "" {
+                Text("Not logged in yet")
+            } else {
+                Text("Logged in")
+            }
         }
-        .padding()
     }
 }
 
