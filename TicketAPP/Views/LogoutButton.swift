@@ -9,7 +9,7 @@ import SwiftUI
 import RealmSwift
 
 struct LogoutButton: View {
-    @Binding var username: String?
+    @Binding var username: String
     
     @State private var isConfirming = false
     
@@ -26,7 +26,7 @@ struct LogoutButton: View {
         Task {
             do {
                 try await realmApp.currentUser?.logOut()
-                username = nil
+                username = ""
             } catch {
                 print("Failed to logout: \(error.localizedDescription)")
             }
