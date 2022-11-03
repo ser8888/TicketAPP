@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import RealmSwift
+//import RealmSwift
 
 
 
@@ -20,6 +20,8 @@ struct ContentView: View {
               LoginView(username: $username)
             } else {
                 ProductsView(username: username)
+//                    .navigationBarItems(trailing: LogoutButton( username: $username))
+//                    .navigationBarItems(trailing: LogoutButton(username: $username))
             }
         }
     }

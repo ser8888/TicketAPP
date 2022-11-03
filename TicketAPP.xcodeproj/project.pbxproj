@@ -19,6 +19,7 @@
 		7F1DF932291328680000DD43 /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF931291328680000DD43 /* TicketsView.swift */; };
 		7F1DF9342913E8840000DD43 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF9332913E8840000DD43 /* TicketView.swift */; };
 		7F1DF9362913ED020000DD43 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF9352913ED020000DD43 /* DateView.swift */; };
+		7F1DF93829144BAE0000DD43 /* LogoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF93729144BAE0000DD43 /* LogoutButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		7F1DF931291328680000DD43 /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
 		7F1DF9332913E8840000DD43 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
 		7F1DF9352913ED020000DD43 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		7F1DF93729144BAE0000DD43 /* LogoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				7F1DF931291328680000DD43 /* TicketsView.swift */,
 				7F1DF9332913E8840000DD43 /* TicketView.swift */,
 				7F1DF9352913ED020000DD43 /* DateView.swift */,
+				7F1DF93729144BAE0000DD43 /* LogoutButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				7F1DF9342913E8840000DD43 /* TicketView.swift in Sources */,
 				7F1DF930291324750000DD43 /* Ticket.swift in Sources */,
 				7F1DF91929130CD00000DD43 /* ContentView.swift in Sources */,
+				7F1DF93829144BAE0000DD43 /* LogoutButton.swift in Sources */,
 				7F1DF91729130CD00000DD43 /* TicketAPPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
