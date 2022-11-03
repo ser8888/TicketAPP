@@ -14,9 +14,12 @@ struct ProductsView: View {
     
     var body: some View {
         List {
-            ForEach(products, id: \.self) { product in
-                NavigationLink(destination: Text("\(product) ticket")) {
-                    Text(product)
+            if let realmUser = realmApp.currentUser {
+                ForEach(products, id: \.self) { product in
+                    NavigationLink(destination: TicketsView(username: username, product: product)
+                        .environment(\.realmConfiguration, realmUser.flexibleSyncConfiguration())) {
+                            Text(product)
+                        }
                 }
             }
         }
