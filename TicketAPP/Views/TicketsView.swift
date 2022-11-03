@@ -30,17 +30,33 @@ struct TicketsView: View {
                     }
                 }
                 Spacer()
+                VStack {
+                    TextField("Title", text: $title)
+                    TextField("Details", text: $details)
+                        .font(.caption)
+                    Button (
+                        "Add ticket"
+                    ) {
+                        addTicket()
+                    }
+                    .buttonStyle(.borderedProminent)
+                    .disabled(title.isEmpty || busy)
+
+                }
             }
             .padding()
             if busy {
                 ProgressView()
             }
         }
+        .onAppear(perform: subsribe)
+        .onDisappear(perform: unsubsribe)
         .navigationBarTitle(product, displayMode: .inline)
     }
     
     private func addTicket() {
         let ticket = Ticket(product: product, title: title, details: details.isEmpty ? nil : details, author: username)
+  // this line write to Atlas, we are already subscribed.
         $tickets.append(ticket)
         title = ""
         details = ""

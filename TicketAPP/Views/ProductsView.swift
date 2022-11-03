@@ -10,7 +10,7 @@ import SwiftUI
 struct ProductsView: View {
     let username: String
     
-    let products = ["BMW", "Meesedes", "Audi", "VW "]
+    let products = ["Atlas", "Realm", "Search", "Charts"]
     
     var body: some View {
         List {
