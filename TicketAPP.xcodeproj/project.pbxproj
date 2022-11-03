@@ -18,6 +18,7 @@
 		7F1DF930291324750000DD43 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF92F291324750000DD43 /* Ticket.swift */; };
 		7F1DF932291328680000DD43 /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF931291328680000DD43 /* TicketsView.swift */; };
 		7F1DF9342913E8840000DD43 /* TicketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF9332913E8840000DD43 /* TicketView.swift */; };
+		7F1DF9362913ED020000DD43 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DF9352913ED020000DD43 /* DateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		7F1DF92F291324750000DD43 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		7F1DF931291328680000DD43 /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
 		7F1DF9332913E8840000DD43 /* TicketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketView.swift; sourceTree = "<group>"; };
+		7F1DF9352913ED020000DD43 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				7F1DF92C29131F6B0000DD43 /* ProductsView.swift */,
 				7F1DF931291328680000DD43 /* TicketsView.swift */,
 				7F1DF9332913E8840000DD43 /* TicketView.swift */,
+				7F1DF9352913ED020000DD43 /* DateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			files = (
 				7F1DF932291328680000DD43 /* TicketsView.swift in Sources */,
 				7F1DF92D29131F6B0000DD43 /* ProductsView.swift in Sources */,
+				7F1DF9362913ED020000DD43 /* DateView.swift in Sources */,
 				7F1DF92B291313440000DD43 /* LoginView.swift in Sources */,
 				7F1DF9342913E8840000DD43 /* TicketView.swift in Sources */,
 				7F1DF930291324750000DD43 /* Ticket.swift in Sources */,
